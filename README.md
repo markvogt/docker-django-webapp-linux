@@ -1,5 +1,15 @@
 # Django starter app for Web App on Linux
 
+# DAILY LOG FOR MARK VOGT (forked & clone this project)
+
+### 2020 05 21 MV:
+- FORKED & CLONED project 
+- FOLLOWED steps in this reference: https://docs.microsoft.com/en-us/azure/app-service/containers/tutorial-custom-docker-image
+- SLOGGED through some mistakes and Windows/Linux file conversions, but 
+- GOT base demo web app working locally on port 4000 :-) 
+- CONTINUED with tutorial deploying to AzureContainerRegistry and from there to AzureWebAppServices for hosting an instance...
+
+
 A simple Python Django application running in a Docker container. The custom image uses port 8000. 
 
 ## Setting up custom image for web App on Linux 
