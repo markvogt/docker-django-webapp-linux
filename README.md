@@ -2,6 +2,12 @@
 
 # DAILY LOG FOR MARK VOGT (forked & clone this project)
 
+### 2020 50 22 MV: 
+- CONTINUED debugging why the LOCALLY-deployed (to Windows10 laptop Docker Engine) WORKS FINE, but CLOUD-deployed (to Container-on-Linux) DOESN'T work 
+- THEORY: maybe ALL of the executable files (NOT only the .sh files) must be converted from CRLF ("Windows") to LF ("Linux") formatting? 
+- CONVERTED (you can do this by opening each file in VSC and clicking lower-right status bar > CRLF and switching to LF ) ALL files
+- RE-DEPLOYED to cloud (multiple steps)
+
 ### 2020 05 21 MV:
 - FORKED & CLONED project 
 - FOLLOWED steps in this reference: https://docs.microsoft.com/en-us/azure/app-service/containers/tutorial-custom-docker-image
