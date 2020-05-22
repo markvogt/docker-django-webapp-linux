@@ -7,6 +7,19 @@
 - THEORY: maybe ALL of the executable files (NOT only the .sh files) must be converted from CRLF ("Windows") to LF ("Linux") formatting? 
 - CONVERTED (you can do this by opening each file in VSC and clicking lower-right status bar > CRLF and switching to LF ) ALL files
 - RE-DEPLOYED to cloud (multiple steps)
+- RESTARTED AzureWebApp "mv3"...
+- BROWSED to http://mv3.azurewebsites.net:4000 
+- - => NOTHING :-( 
+- BROWSED to http://mv3.azurewebsites.net 
+- - => WORKING :-) !!!!!!! 
+- THEORY (explained by Ian) all of the Docker-related commands and AzureWebApp Services commands issue to :4000 result in any
+- requests being sent to http://mv3.azurewebsite.net  being REDIRECTED to http://mv3.azurewebsites.net:4000 and WORKING ! :-) 
+- TESTED until CONVINCED entire process is now resulting in a WORKING AzureWebAppServices customDockerContainerImage-based web app ! 
+- NEXT: SAVE/COMMIT/PUSH THIS project to github.com and LEAVE IT AS-IS (as a "working template")
+- CLONE this project
+- MODIFY the CLONED project to actually contain my PEEM "API app" (web service) application
+- BUILD/PUSH new customDockerContainerImage to AzureContainerRegistry
+- CREATE NEW AzureWebApp "avanade-peem4"  (when working will give http://avanade-peem4.azurewebsites.net)
 
 ### 2020 05 21 MV:
 - FORKED & CLONED project 
